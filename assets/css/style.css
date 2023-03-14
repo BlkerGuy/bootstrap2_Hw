@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bold-green{color: #4b5c54;}
+.light-brown{color: #55534e;;}
+.w-90{ width: 90%;}
+.fshadow{text-shadow: 1px 1px rgba(0, 0, 0, 0.43);
+    font-family: 'Times New Roman', Times, serif ;;
+}
+.container{
+    max-width: 1000px;
+    margin: auto;}
+header{
+    background-color: rgb(84,97,77,255);
+    border-color:rgba(167, 175, 188, 255);
+    box-shadow: 0 4px 6px -6px #222;}
+header ul li {
+    display: inline;
+    margin-left: 27px;}
+header ul li a{
+    text-transform: uppercase;
+    color: #abb792;
+    text-shadow: 1px 1px black;
+    font:bold 14px 'Times New Roman', Times, serif ;}
+
+.hamburger i{
+    font-size: 30px;
+    color: #fff;}
+.section-one{
+    background-color: #eee;}
+.section-one h2{text-align: center;}
+.section-one .custom-card{box-shadow: 0 3px 5px 0 rgb(95, 92, 92);}
+.section-two{background-color: #ccc;}
+.fs-16{font-size: 16px;}
+@media (max-width:576px){
+    .img{
+        width: 300px;
+    }
+}
+@media (max-width:280px){
+    .img{
+        width: 200px;
+    }
+}
+
